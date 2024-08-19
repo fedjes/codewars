@@ -4,5 +4,5 @@
 
 function findShort(s){
     let arr = s.split(' ')
-    return arr.reduce((acc,cur) => (c.length < a.length ? cur : acc), arr[0]).length
+    return arr.reduce((acc,cur) => (cur.length < acc.length ? cur : acc), arr[0]).length
   }
