@@ -8,7 +8,7 @@
 // +++
 
 function generateShape(integer) {
-    let plus = '+';
-    let res = plus.repeat(integer) + '\n'
+   
+    let res = '+'.repeat(integer) + '\n'
     return res.repeat(integer).slice(0, -1)
 }
